@@ -1,15 +1,494 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Pedat Evan</title>
-    <link rel="stylesheet" href="style2.css">
-    </head>
-    <body>
-      <header>
-        <h1>🚧 Site en cours de construction 🚧</h1>
-      </header>
-    
-    </body>
+    <title>PEDAT Evan - CV - FR</title>
+    <meta name="author" content="PEDAT Evan">
+    <meta name="description" content="CV de Pédat Evan">
+    <meta name="keywords" content="CV, centres interets, presentation, competence, experience, projet">
+    <link rel="icon" href="img/icone/fr_flag_round.png">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/layout_medium.css" rel="stylesheet">
+    <link href="css/layout_minimum.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/print.css" rel="stylesheet" media="print">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="name">
+                <h1>PEDAT EVAN - MON PORTFOLIO</h1>
+            </div>
+            <div class="main_bar">
+                <button class="button-dropdown" aria-label="Ouvrir le menu">&#9776;</button>
+                <div class="drpdwn-content">
+                    <ul>
+                        <li><a href="#presentation" class="active">MA PRÉSENTATION</a></li>
+                        <li><a href="#competences">MES COMPÉTENCES</a></li>
+                        <li><a href="#experiences">MES EXPÉRIENCES</a></li>
+                        <li><a href="#projet">MES PROJETS RÉALISÉS</a></li>
+                        <li><a href="#ci">MES CENTRES D'INTÉRÊTS</a></li>
+                    </ul> 
+                </div>
+                <div class="drpdwn-content3">
+                    <ul>
+                        <li><a href="index.html" class="active"><img src="img/icone/fr_flag.webp" alt="FR"></a></li>
+                        <li><a href="cv_en.html"><img src="img/icone/en_flag.webp" alt="EN"></a></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="lang_choice">
+                <a href="index.html" class="active"><img src="img/icone/fr_flag.webp" alt="FR"></a>
+                <a href="cv_en.html"><img src="img/icone/en_flag.webp" alt="EN"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="presentation" id="presentation">
+            <h2>MA PRÉSENTATION</h2>
+            <div class="content-container">
+                <div class="img-container">
+                    <picture>
+                        <source class="img-profile" media="(max-width: 800px)" type="image/webp" srcset="img/cv/img/small/photo_evan1_small.webp">
+                        <source class="img-profile" media="(max-width: 800px)" type="image/jpg" srcset="img/cv/img/small/photo_evan1_small.jpg">
+                        <source class="img-profile" media="(min-width: 801px)" type="image/webp" srcset="img/cv/img/big/photo_evan1.webp">
+                        <img class="img-profile" alt="Photo de PEDAT Evan" src="img/cv/img/big/photo_evan1.jpg">
+                      </picture>
+                </div>
+                <section class="info">
+                    <h3>FORMATION</h3>
+                    <p>Diplômé du Baccalauréat technologique avec une spécialité en Systèmes d'Information et Numérique (SIN) en 2024, je poursuis actuellement mes études à l'Université Savoie Mont Blanc, où je me spécialise en Réseaux informatiques et Télécommunications.</p>
+                    <h3>INFORMATIONS GÉNÉRALES</h3>
+                    <ul>
+                        <li>Prénom : <strong>Evan</strong></li>
+                        <li>Nom : <strong>PEDAT</strong></li>
+                        <li>Date de naissance : <strong>12 Mai 2006</strong></li>
+                    </ul>
+                    <div class="button-container">
+                        <a href="https://www.univ-smb.fr/iut-annecy/formation/reseaux-informatiques-et-telecoms/" target="_blank">En savoir plus sur la formation R&T</a>
+                    </div>
+                </section>
+                <section class="last-project">
+                    <h3>MON DERNIER PROJET</h3>
+                    <img src="img/cv/img/big/projet_parking2.webp" alt="Image dernier projet">
+                    <h4>Conception et réalisation d'un parking intelligent miniature</h4>
+                    <div class="button-container">
+                        <a href="#projet">En savoir plus</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="competences" id="competences">
+            <h2>MES COMPÉTENCES</h2>
+            <div class="content-container">
+                <section class="description">
+                    <h3>MES COMPÉTENCES</h3>
+                    <p>En tant qu'étudiant, mes compétences sont encore en cours de développement. Néanmoins, je dispose de bases solides dans certains domaines, ce qui me permet de réaliser des projets et de mettre en pratique les connaissances acquises durant mes cours.</p>
+                    <img src="img/cv/img/big/etude1.webp" alt="Image d'une personne sur un ordinateur">
+                </section>
+                <section class="dev-competences">
+                    <h3>DÉVELOPPMENT DE MES COMPÉTENCES</h3>
+                    <div class="stat-container">
+                        <article class="reseaux-informatiques">
+                            <h4>RÉSEAUX INFORMATIQUES</h4>
+                            <div class="progress-bar">
+                                <div class="reseaux-bar">10%</div>
+                            </div>
+                            <ul>
+                                <li>Utilisation de protocoles TCP/IP</li>
+                                <li>Configuration de réseaux locaux (LAN) et étendus (WAN)</li>
+                                <li>Configuration de routeurs et utilisation de Cisco Packet Tracer</li> 
+                            </ul>
+                        </article>
+
+                        <article class="systemes-exploitation">
+                            <h4>SYSTÈMES D'EXPLOITATION</h4>
+                            <div class="progress-bar">
+                                <div class="systemes-bar">25%</div>
+                            </div>
+                            <ul>
+                                <li>Configuration de système d’exploitation (Linux et Windows)</li>
+                                <li>Gestion des utilisateurs et des groupes (GPO)</li>
+                                <li>Utilisation de l’invite de commandes (CMD, PowerShell)</li> 
+                            </ul>
+                        </article>
+
+                        <article class="programmation">
+                            <h4>PROGRAMMATION</h4>
+                            <div class="progress-bar">
+                                <div class="programmation-bar">15%</div>
+                            </div>
+                            <ul>
+                                <li>Connaissance de base en Python</li>
+                                <li>Maîtrise de la programmation WEB Frontend (HTML, CSS)</li>
+                            </ul>
+                        </article>
+
+                        <article class="cybersecurite">
+                            <h4>CYBERSÉCURITÉ</h4>
+                            <div class="progress-bar">
+                                <div class="cybersecurite-bar">10%</div>
+                            </div>
+                            <ul>
+                                <li>Notions de base en sécurité informatique</li>
+                                <li>Identification des vulnérabilités</li>
+                                <li>Mise en place de mesures de sécurité simples</li> 
+                            </ul>
+                        </article>
+                    </div>
+                </section>
+                <section class="logiciel-maitriser">
+                    <h3>OUTILS ET LOGICIELS MAÎTRISER</h3>
+                    <div class="content-container">
+                        <div class="content content1">
+                            <picture>
+                                <source type="image/webp" srcset="img/cv/icone/competence-content1.webp">
+                                <img src="img/cv/icone/competence-content1.png" alt="Logo d'Adobe Photoshop" loading="lazy">
+                            </picture>
+                            <h4>PHOTOSHOP</h4>
+                        </div>
+                        <div class="content content2">
+                            <picture>
+                                <source type="image/webp" srcset="img/cv/icone/competence-content2.webp">
+                                <img src="img/cv/icone/competence-content2.png" alt="Logo de Cisco Packet Tracer" loading="lazy">
+                            </picture>
+                            <h4>CISCO PACKET TRACER</h4>
+                        </div>
+                        <div class="content content3">
+                            <picture>
+                                <source type="image/webp" srcset="img/cv/icone/competence-content3.webp">
+                                <img src="img/cv/icone/competence-content3.png" alt="Logo de Canva" loading="lazy">
+                            </picture>
+                            <h4>CANVA</h4>
+                        </div>
+                        <div class="content content4">
+                            <picture>
+                                <source type="image/webp" srcset="img/cv/icone/competence-content4.webp">
+                                <img src="img/cv/icone/competence-content4.png" alt="Logo de Visual Studio Code (VSC)" loading="lazy">
+                            </picture>
+                            <h4>VISUAL STUDIO CODE</h4>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="experiences" id="experiences">
+            <h2>MES EXPÉRIENCES</h2>
+            <div class="content-container">
+                <article>
+                    <h3>EMPLOYÉ COMMERCIAL SAISONNIER</h3>
+                    <div class="date-location">
+                        <p>17/07/24 - 25/08/24</p>
+                        <a class="location" target="_blank" href="https://www.carrefour.fr/magasin/carrefour-montagne-hauteluce-les-saisies"><i class="fa-solid fa-location-dot"></i>Carrefour-Montagne, Les Saisies</a>
+                    </div>
+                    <h4>TÂCHES RÉALISÉES</h4>
+                    <ul>
+                        <li>Responsable de la communication via les réseaux sociaux</li>
+                        <li>Mise en rayon</li>
+                        <li>Gestion des stocks</li>
+                        <li>Accueil des clients</li>
+                        <li>Réassortiment des produits</li>
+                        <li>Nettoyage et entretien de l'espace de vente</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>EMPLOYÉ COMMERCIAL SAISONNIER</h3>
+                    <div class="date-location">
+                        <p>08/07/23 - 08/08/23</p>
+                        <a class="location" target="_blank" href="https://www.carrefour.fr/magasin/carrefour-montagne-hauteluce-les-saisies"><i class="fa-solid fa-location-dot"></i>Carrefour-Montagne, Les Saisies</a>
+                    </div>
+                    <h4>TÂCHES RÉALISÉES</h4>
+                    <ul>
+                        <li>Mise en rayon</li>
+                        <li>Gestion des stocks</li>
+                        <li>Accueil des clients</li>
+                        <li>Réassortiment des produits</li>
+                        <li>Nettoyage et entretien de l'espace de vente</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>SAISONNIER AU SERVICE D'ENTRETIEN</h3>
+                    <div class="date-location">
+                        <p>07/07/22 - 08/08/22</p>
+                        <a class="location" target="_blank" href="https://www.vetraz-monthoux.fr/mairie/les-services-municipaux/"><i class="fa-solid fa-location-dot"></i>Service Communal, Vétraz-Monthoux</a>
+                    </div>
+                    <h4>TÂCHES RÉALISÉES</h4>
+                    <ul>
+                        <li>Nettoyage des espaces publics communaux (mairie, écoles publiques, gymnase)</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>STAGE D'OBSERVATION À LA SPA D'ARTHAZ</h3>
+                    <div class="date-location">
+                        <p>18/01/21 - 22/01/21</p>
+                        <a class="location" target="_blank" href="https://www.animaux-secours.fr/"><i class="fa-solid fa-location-dot"></i>Animaux-Secours, Arthaz</a>
+                    </div>
+                    <h4>TÂCHES RÉALISÉES</h4>
+                    <ul>
+                        <li>Observer et aider à l'alimentation des animaux</li>
+                        <li>Participer à l'entretien des espaces de vie des animaux (nettoyage des cages, des enclos, etc)</li>
+                        <li>Partir en mission avec les bénévoles </li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+        <div class="projet" id="projet">
+            <h2>MES PROJETS RÉALISÉS</h2>
+            <div class="content-container">
+                <article>
+                    <div class="main-container">
+                        <p><strong>01/01/24 - 15/05/24</strong></p>
+                        <p><strong>Terminal STI2D</strong></p>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/cv/img/big/projet_parking2.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/cv/img/small/projet_parking2-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/cv/img/small/projet_parking2-small.jpg">
+                            <img src="img/cv/img/big/projet_parking2.jpg" alt="Image du projet 1">
+                        </picture>
+                        <h3>CONCEPTION ET RÉALISATION D'UN PARKING INTELLIGENT MINIATURE</h3>
+                        <div class="button-container">
+                            <a href="javascript:void(0);" onclick="toggleSupContainer(this)">Voir plus d'informations</a>
+                        </div>
+                    </div>
+                    <div class="sup-container">
+                        <h4>DÉTAILS DU PROJET</h4>
+                        <ul>
+                            <li>Élaboration d'un diagramme de Gantt et de diagramme SysML</li>
+                            <li>Utilisation d'un microcontrôleur Arduino</li>
+                            <li>Programmation des capteurs et moteur en C#</li>
+                            <li>Présentation orale du projet</li>
+                        </ul>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/cv/img/big/projet_parking3.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/cv/img/small/projet_parking3-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/cv/img/small/projet_parking3-small.jpg">
+                            <img src="img/cv/img/big/projet_parking3.jpg" alt="Image du projet 2">
+                        </picture>
+                    </div>
+                </article>
+                <article>
+                    <div class="main-container">
+                        <p><strong>01/01/23 - 25/04/23</strong></p>
+                        <p><strong>Première STI2D</strong></p>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/cv/img/big/Projet_challenge_energetique1.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/cv/img/small/Projet_challenge_energetique1-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/cv/img/small/Projet_challenge_energetique1-small.jpg">
+                            <img src="img/cv/img/big/Projet_challenge_energetique1.jpg" alt="Image du projet 1">
+                        </picture>
+                        <h3>CHALLENGE DE SOBRIÉTÉ ÉNERGÉTIQUE</h3>
+                        <div class="button-container">
+                            <a href="javascript:void(0);" onclick="toggleSupContainer(this)">Voir plus d'informations</a>
+                        </div>
+                    </div>  
+                    <div class="sup-container">
+                        <h4>DÉTAILS DU PROJET</h4>
+                        <ul>
+                            <li>Réalisation d’une maquette de maison sobre énergétiquement</li>
+                            <li>Élaboration d'un diagramme de Gantt</li>
+                            <li>Etude énergétique sur les matériaux</li>
+                            <li>S'adapter aux contraintes budgétaires</li>
+                            <li>Utilisation d'un microcontrôleur Arduino</li>
+                            <li>Programmation des capteurs et moteur en C#</li>
+                            <li>Présentation orale du projet</li>
+                        </ul>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/cv/img/big/Projet_challenge_energetique2.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/cv/img/small/Projet_challenge_energetique2-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/cv/img/small/Projet_challenge_energetique2-small.jpg">
+                            <img src="img/cv/img/big/Projet_challenge_energetique2.jpg" alt="Image du projet 2">
+                        </picture>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="ski" id="ci">
+            <h2>LE SKI ALPIN</h2>
+            <div class="content-container">
+                <div class="description">
+                    <p>Le ski alpin est ma passion depuis l'âge de 3 ans, chaque descente étant une nouvelle aventure. J'apprécie la sensation de glisse, l'adrénaline des virages, et la beauté des paysages enneigés. Les montagnes sont un immense terrain de jeu, et le ski m'apporte aussi camaraderie et moments de tranquillité. Peu importe où la vie me mène, le ski restera une partie essentielle de moi.</p>
+                    <picture>
+                        <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/ski-profil-big.webp">
+                        <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/ski-profil-small.webp">
+                        <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/ski-profil-small.jpg">
+                        <img src="img/ci/img/big/ski-profil-big.jpg" alt="Image de ski 1">
+                    </picture>
+                </div>
+                <div class="carousel-container">
+                    <button class="carousel-button prev">&#10094;</button>
+                    <div class="carousel">
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/ski-content1-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/ski-content1-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/ski-content1-small.jpg">
+                            <img src="img/ci/img/big/ski-content1-big.jpg" alt="Image de ski 2">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/ski-content2-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/ski-content2-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/ski-content2-small.jpg">
+                            <img src="img/ci/img/big/ski-content2-big.jpg" alt="Image de ski 3">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/ski-content3-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/ski-content3-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/ski-content3-small.jpg">
+                            <img src="img/ci/img/big/ski-content3-big.jpg" alt="Image de ski 4">
+                        </picture>
+                    </div>
+                    <button class="carousel-button next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="peche" id="peche">
+            <h2>PÊCHE SPORTIVE EN TORRENT DE MONTAGNE</h2>
+            <div class="content-container">
+                <div class="carousel-container">
+                    <button class="carousel-button prev">&#10094;</button>
+                    <div class="carousel">
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/peche-content1-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/peche-content1-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/peche-content1-small.jpg">
+                            <img src="img/ci/img/big/peche-content1-big.jpg" alt="Image de pêche 1">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/peche-content2-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/peche-content2-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/peche-content2-small.jpg">
+                            <img src="img/ci/img/big/peche-content2-big.jpg" alt="Image de pêche 2">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/peche-content3-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/peche-content3-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/peche-content3-small.jpg">
+                            <img src="img/ci/img/big/peche-content3-big.jpg" alt="Image de pêche 3">
+                        </picture>
+                    </div>
+                    <button class="carousel-button next">&#10095;</button>
+                </div>
+                <div class="description">
+                    <p>Mon père, passionné de pêche, m'emmenait souvent avec lui dans les torrents de montagne. Nous passions des heures à pêcher, les pieds dans l'eau fraîche, profitant de la beauté de la nature et du calme environnant. Ces moments partagés étaient précieux, me permettant d'apprendre non seulement les techniques de pêche, mais aussi à apprécier la tranquillité et la sérénité des paysages montagnards.</p>
+                    <video controls width="250">            
+                        <source src="img/ci/video/peche_content_video_1.mp4" type="video/mp4">
+                        <source src="img/ci/video/peche_content_video_1.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo" id="photo">
+            <h2>LA PHOTOGRAPHIE</h2>
+            <div class="content-container">
+                <div class="description">
+                    <p>Je pratique la photographie de manière amateur depuis mes 11 ans. Je n'ai jamais arrêté, que ce soit pour capturer un coucher de soleil ou simplement mon chat. La photographie est devenue une passion qui me permet de voir le monde sous un autre angle et d'immortaliser des moments précieux.</p>
+                    <picture>
+                        <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/photo-profil-big.webp">
+                        <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/photo-profil-small.webp">
+                        <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/photo-profil-small.jpg">
+                        <img src="img/ci/img/big/photo-profil-big.jpg" alt="Photo d'un appareil photo">
+                    </picture>
+                </div>
+                <div class="carousel-container">
+                    <button class="carousel-button prev">&#10094;</button>
+                    <div class="carousel">
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/photo-content1-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/photo-content1-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/photo-content1-small.jpg">
+                            <img src="img/ci/img/big/photo-content1-big.jpg" alt="Photo du lever de soleil à la montagne">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/photo-content2-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/photo-content2-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/photo-content2-small.jpg">
+                            <img src="img/ci/img/big/photo-content2-big.jpg" alt="Photo de skateboard avec un coucher de soleil">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/photo-content3-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/photo-content3-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/photo-content3-small.jpg">
+                            <img src="img/ci/img/big/photo-content3-big.jpg" alt="Photo d'un chat dans la nature">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 801px)" type="image/webp" srcset="img/ci/img/big/photo-content4-big.webp">
+                            <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/small/photo-content4-small.webp">
+                            <source media="(max-width: 800px)" type="image/jpg" srcset="img/ci/img/small/photo-content4-small.jpg">
+                            <img src="img/ci/img/big/photo-content4-big.jpg" alt="Photo d'un chat dans la nature 2">
+                        </picture>
+                    </div>
+                    <button class="carousel-button next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="musique" id="musique">
+            <h2>LA MUSIQUE</h2>
+            <div class="content-container">
+                <div class="description">
+                    <p>La musique joue un rôle crucial dans ma vie, offrant une mélodie pour chaque moment, que ce soit pour se détendre, se motiver ou profiter d'un bon moment entre amis. Elle évoque des émotions, crée des souvenirs et unit les gens, chaque genre musical racontant une histoire unique et offrant une expérience différente.</p>
+                    <p>Il y a quatre ans, j'ai commencé à composer ma propre musique en utilisant le logiciel FL Studio. Depuis, j'ai exploré différents genres et techniques de production. Vous retrouverez quelques-unes de mes créations à la suite.</p>                    
+                    <picture>
+                        <source media="(max-width: 800px)" type="image/webp" srcset="img/ressource/music.webp">
+                        <img src="img/ci/img/big/music.webp" alt="musique illustration">
+                    </picture>
+                </div>
+                <div class="music-container">
+                    <picture>
+                        <source media="(max-width: 800px)" type="image/webp" srcset="img/ci/img/big/floria2.webp">
+                        <img src="img/ci/img/big/floria2.webp" alt="Cover Floria">
+                    </picture>
+                    <div class="music-bottom">
+                        <h3>FLORIA</h3>
+                        <div class="music-player-container">
+                            <audio controls>
+                                <source src="img/ci/music/floria.mp3" type="audio/mp3">
+                                Votre navigateur ne supporte pas la lecture audio.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="music-container">
+                    <picture>
+                        <source media="(min-width: 800px)" type="image/png" srcset="img/ci/img/big/expandius.png">
+                        <img src="img/ci/img/big/expandius.png" alt="cover Expandius">
+                    </picture>
+                    <div class="music-bottom">
+                        <h3>EXPANDIUS</h3>
+                        <div class="music-player-container">
+                            <audio controls>
+                                <source src="img/ci/music/Expandius.mp3" type="audio/mp3">
+                                Votre navigateur ne supporte pas la lecture audio.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <footer>
+        <h2>ME CONTACTER</h2>
+        <div class="content-container">
+            <div class="contact-container">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:Evan.Pedat@etu.univ-smb.fr">Evan.Pedat@etu.univ-smb.fr</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-compass"></i>
+                    <a href="https://maps.app.goo.gl/VEHwUgEXNmeEVARN8" target="_blank">11 chemain du bray, 74940 Annecy</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+33769509104">+33 7 69 50 91 04</a>
+                </div>
+            </div>
+            <p>Copyright © 2024 Dev by PEDAT Evan</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script> 
+    <script src="https://kit.fontawesome.com/abbbf2c36c.js" crossorigin="anonymous"></script>
+</body>
 </html>
